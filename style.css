@@ -1,0 +1,73 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #98E4FF;
+  }
+  
+  .heading {
+    margin-left: 630px;
+  }
+  
+  .container {
+    display: inline-block;
+  }
+  
+  .form-label {
+    display: 100%;
+    margin-left: 250px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    display: 100%;
+    width: 100%;
+    margin-left: 240px;
+    margin-bottom: 8px;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .input-group {
+    margin-bottom: 18px;
+    font-size: 20px;
+  }
+  
+  .form-check {
+    display: 100%;
+    margin-left: 295px;
+    font-size: 20px;
+  }
+  
+  .form-check-input {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  #form-submitted-msg {
+    margin-bottom: 20px;
+    margin-left: 450px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #A8DF8E;
+    color: white;
+    font-size: 30px;
+    display: none;
+  }
+  
+  #submit {
+    margin-left: 270px;
+    padding: 8px;
+    width: 10%;
+    background-color: #687EFF;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .error-msg invalid-feedback {
+    visibility: visible;
+  }

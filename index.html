@@ -1,0 +1,86 @@
+
+<body>
+
+    <main class="container">
+    
+    <div class="heading">
+    
+    <h2>Newsletter Sign-Up</h2>
+    
+    </div>
+    
+    <br>
+    
+    <div id="form-submitted-msg">You Have Successfully Signed up for Our Newsletter!</div>
+    
+    
+    <form id="form" novalidate>
+    
+    
+    <div class="input-group">
+        <label for="firstName" class="form-label">First name: </label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter first name" class="form-control" required>
+        <small class="error-msg invalid-feedback" required</small>
+      </div>
+    
+      <div class="input-group">
+    
+    <label for="lastName" class="form-label">Last name: </label>
+    
+    <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Enter last name" required>
+    
+    <small class="error-msg invalid-feedback" required</small>
+    
+    </div>
+    
+    
+      <div class="input-group">
+        <label for="email" class="form-label">Email Address: </label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Enter email" required>
+        <small class="error-msg invalid-feedback" required</small>
+      </div>
+      <div class="input-group">
+        <label for="goal" class="form-label">List your current #1 goal, or type N/a. </label>
+        <input type="text" id="goal" name="goal" class="form-control" placeholder="Example: coding efficiently" required>
+        <small class="error-msg invalid-feedback" required</small>
+      </div>
+      <div class="input-group select">
+        <label for="password" class="form-label">How often would you like to receive newsletters? </label>
+        <select id="accountType" name="accountType" class="form-select" required>
+          <option value="Please select an option" selected class="text-muted">Choose an option</option>
+          <option value="weekly">Weekly</option>
+          <option value="monthly">Monthly</option>
+        </select>
+        <small class="error-msg invalid-feedback" required</small>
+      </div>
+      <div class="input-group radio">
+        <div class="form-check">
+          <input type="radio" id="raffleYes" name="purpose" value="raffleYes" class="form-check-input" required>
+          <label for="personal" class="form-check-label">I would like to be entered into a cash prize raffle.</label>
+          <small class="error-msg invalid-feedback" required</small>
+        </div>
+    
+        <div class="form-check">
+          <input type="radio" id="raffleNo" name="purpose" value="raffleNo" class="form-check-input" required>
+          <label for="business" class="form-check-label">I am opting out of the raffle entry.</label>
+          <small class="error-msg invalid-feedback" required</small>
+        </div>
+      </div>
+      <div class="input-group checkbox form-check">
+        <input type="checkbox" name="subscribe" id="subscribeYes" class="form-check-input" required>
+        <label for="completedForm" class="form-check-label">Check here when you have entered an input for all of the fields above, then click 'Submit.'</label>
+        <small class="error-msg invalid-feedback" required</small>
+      </div>
+     
+      <div class="form-btn">
+        <button type="submit" class="btn btn-primary submit" id="submit">SUBMIT</button>
+      </div>
+    </form>
+    
+    </main>
+    
+    <script src="./main.js"></script>
+    
+    </body>
+    
+    </html>
